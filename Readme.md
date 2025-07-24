@@ -1,38 +1,32 @@
-Expense Tracker
+# Expense Tracker
 
 A personal finance tracking application where users can log their income and expenses, categorize transactions, and view spending trends. This application helps users manage their budget effectively by providing a real-time financial overview.
 
-Key Features
+## Key Features
 
-✅ User Authentication & Security  
+User Authentication & Security  
 - Secure signup and login system using bcrypt for password hashing.
 - Session management to ensure only authenticated users access their data.
 
-✅ Dashboard Overview  
+Dashboard Overview  
 - Displays Current Balance, Total Income, and Total Expenses.
 - Helps users track their financial health at a glance.
 
-✅ Transaction Management  
+Transaction Management  
 - Users can add, edit, delete, and view income and expenses.
 - Supports categorization (e.g., Rent, Salary, Groceries, Dining).
 - Differentiates income (green) and expenses (red).
 
-✅ Categorization of Expenses  
+Categorization of Expenses  
 - Users can select from predefined categories to track spending habits.
 
-✅ Database Management  
+Database Management  
 - Uses PostgreSQL to store transactions, users, and categories.
 - Implements database migrations for structured data versioning.
 
-✅ Express Router for Modular API Handling  
+Express Router for Modular API Handling  
 - Separate routes for authentication, transactions, and categories.
 - Ensures a clean and maintainable backend structure.
 
-
-Contributing
-Feel free to fork the repo and submit pull requests. Contributions are always welcome!
-
-License
-This project is licensed under the MIT License.
 
 
